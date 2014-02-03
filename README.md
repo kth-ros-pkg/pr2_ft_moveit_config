@@ -11,4 +11,5 @@ To run this in your PR2, you also need the standard PR2 moveit packages installe
     sudo apt-get install ros-<ros_distro>-moveit-pr2
 
 To launch the move group node execute the following command in the terminal:
+    
     roslaunch pr2_ft_moveit_config move_group.launch
