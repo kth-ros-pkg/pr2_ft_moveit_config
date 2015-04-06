@@ -6,6 +6,6 @@
   <!-- The rest of the params are specific to this plugin -->
  
   <!-- load controller_list and controller_manager_ns -->
-  <rosparam file="$(find pr2_moveit_config)/config/pr2_execution_controllers.yaml"/>
+  <rosparam file="$(find pr2_ft_moveit_config)/config/pr2_execution_controllers.yaml"/>
 
 </launch>
