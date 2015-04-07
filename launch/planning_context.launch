@@ -3,7 +3,7 @@
   <arg name="load_robot_description" default="false"/>
 
   <!-- Load universal robotic description format (URDF) -->
-  <param if="$(arg load_robot_description)" name="robot_description" textfile="$(find pr2_ft_moveit_config)/temp/pr2.urdf" />
+  <param if="$(arg load_robot_description)" name="robot_description" textfile="$(find pr2_ft_moveit_config)/urdf/robot_calibrated_2013_09_09_15_54.xml" />
       
   <!-- The semantic description that corresponds to the URDF -->
   <param name="robot_description_semantic" textfile="$(find pr2_ft_moveit_config)/config/pr2.srdf" />
